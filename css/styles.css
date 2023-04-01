@@ -436,6 +436,10 @@ span{
         padding-top: 188px;
         padding-bottom: 188px;
         text-align: center;
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/about-img17.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 }
 .section-one-header{
 
@@ -547,6 +551,15 @@ span{
         clip-path: inset(50%);
         margin: -1px;
 }
+.two-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--nav-color);
+    height: 112px;
+    margin-bottom: 8px;
+}
 /*---3-SECTION---*/
 
 /* .section-three{
@@ -602,6 +615,7 @@ span{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--body-color);
+    margin-bottom: 8px;
 }
 
 .section-four-li {
@@ -619,6 +633,38 @@ span{
     padding: 32px 0;
 }
 
+.soc-icons{
+     display: flex;
+     justify-content: center;
+     gap: 24px;
+
+}
+.soc-icons-items{
+    width: 40px;
+    height: 40px;
+
+}
+.soc-icons-links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--logo-color);
+    border-radius: 50%;
+  
+}
+.soc-icons-links:hover{
+    background-color: var(--hover-color);
+
+}
+.soc-icons-links:focus {
+    background-color: var(--hover-color);
+
+}
+.soc-icons-icons{
+    fill: var(--footer-text-color);
+}
 /*---FOOTER---*/
 .footer{
     background-color: var(--main-color); 
