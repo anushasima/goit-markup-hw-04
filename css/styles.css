@@ -662,9 +662,9 @@ span{
     background-color: var(--hover-color);
 
 }
-.soc-icons-icons{
+/* .soc-icons-icons{
     fill: var(--footer-text-color);
-}
+} */
 /*---FOOTER---*/
 .footer{
     background-color: var(--main-color); 
